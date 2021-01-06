@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Details</title>
+</head>
+<body>
+    <h3>Contact Me:</h3>
+    <ul>
+        <li>Phone: 1234567890</li>
+        <li>E-mail: <a href="https://mail.google.com/">abc@gmail.com</a></li>
+    </ul>
+    <p><strong>You can put your details below to let me contact you</strong></p>
+    <table cellspacing="10">
+        <tr>
+            <td>
+                <form action="mailto:abc@gmail.com" method="POST" enctype="text/plain">
+                    <label for="fname">First Name:</label>
+                    <input type="text" name="fname" id="fname"><br>
+                    <p></p>
+                    <label for="lname">Last Name:</label>
+                    <input type="text" name="lname" id="lname"><br>
+                </form>
+            </td>
+            <td>
+                <form>
+                    <label for="phone">Phone:</label>
+                    <input type="text" name="phone" id="phone"><br>
+                    <p></p>
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email">        
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Select your gender:
+                <form>
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">Male</label><br>
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">Female</label><br>
+                    <input type="radio" name="gender" id="other">
+                    <label for="other">Other</label><br>
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <form>
+                    <label for="DOB">Select your date of birth:</label>
+                    <input type="date" name="DOB" id="DOB"><br>
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <form>
+                    <label for="user id">Select your User ID Name:</label>
+                    <input type="text" name="user id" id="user id"><br>
+                    <p></p>
+                    <label for="password">Enter your password:</label>
+                    <input type="password" name="password" id="password"><br>
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <form>
+                    <label for="fund to spend">Amount you can spend:</label>
+                    <input type="range" name="fund" id="fund to spend" min="1000" max="100000">
+                </form>
+            </td>
+        </tr>
+    </table>
+    <p></p>
+    <form>
+        <input type="checkbox" name="agreement" id="agree">
+        <label for="agree">I agree to the <a href="https://termly.io/resources/templates/terms-and-conditions-template/">terms and conditions.</a></label>
+    </form>
+    <p></p>
+    <form>
+        <label for="Query">Ask your query:</label><br>
+        <textarea name="" id="" cols="60" rows="5"></textarea>
+    </form>
+    <p></p>
+    <form>
+        <label for="submition">Do you want to submit your details?</label>
+        <input type="submit" name="submit" id="submition">
+    </form>
+</body>
+</html>
